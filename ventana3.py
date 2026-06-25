@@ -7,7 +7,7 @@ def saludar_usuario():
     if nombre_ingresado.strip() == "": 
         etiqueta_resultado.config(text="Por favor, escribe un nombre válido.", fg="red")
     else:
-        etiqueta_resultado.config(text="Hola "+ nombre_ingresado +" bienvenido", fg="blue")
+        etiqueta_resultado.config(text="Hola pibes"+ nombre_ingresado +" bienvenido", fg="blue")
 # Configuración de la ventana principal
 ventana = tk.Tk()
 ventana.title("Captura de Datos - Tkinter")
